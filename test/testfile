@@ -3,3 +3,15 @@ jssGlobals.lines.default
 jssGlobals.lines.default
 jssGlobals.transitioneaseSharp
 jssGlobals.statusBuyerOutbid
+
+  @media (min-width: $breakpoints_media_smMin) {
+    width: 320px;
+  }
+}
+
+.stepLine {
+  flex: 1;
+  height: 1px;
+  background: $grey300;
+  margin: 0 10px;
+}
