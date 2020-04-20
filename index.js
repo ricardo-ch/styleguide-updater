@@ -1,5 +1,5 @@
-const path = require("path");
 const escapeStringRegexp = require("escape-string-regexp");
+const path = require("path");
 const replace = require("replace-in-file");
 const replaceList = require("./replaceList");
 
