@@ -356,172 +356,172 @@ const replaceList = [
   {
     replace: "$typographyUX_default_component;",
     with:
-      "'p'; /* This used to be the not anymore exposed variable $typographyUX_default_component TODO: Use Typography component instead of styling via CSS */",
+      "'p'; /* This used to be the variable $typographyUX_default_component TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_default_fontWeight;",
     with:
-      "400; /* This used to be the not anymore exposed variable $typographyUX_default_fontWeight TODO: Use Typography component instead of styling via CSS */",
+      "400; /* This used to be the variable $typographyUX_default_fontWeight TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_default_lineHeight;",
     with:
-      "1.35em; /* This used to be the not anymore exposed variable $typographyUX_default_lineHeight TODO: Use Typography component instead of styling via CSS */",
+      "1.35em; /* This used to be the variable $typographyUX_default_lineHeight TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_default_fontFamily;",
     with:
-      '"Roboto", "Helvetica", "Arial", sans-serif; /* This used to be the not anymore exposed variable $typographyUX_default_fontFamily TODO: Use Typography component instead of styling via CSS */',
+      '"Roboto", "Helvetica", "Arial", sans-serif; /* This used to be the variable $typographyUX_default_fontFamily TODO: Use the Typography component instead of styling via CSS */',
   },
   {
     replace: "$typographyUX_default_color;",
     with:
-      "#202020; /* This used to be the not anymore exposed variable $typographyUX_default_color TODO: Use Typography component instead of styling via CSS */",
+      "#202020; /* This used to be the variable $typographyUX_default_color TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_default_textAlign;",
     with:
-      "inherit; /* This used to be the not anymore exposed variable $typographyUX_default_textAlign TODO: Use Typography component instead of styling via CSS */",
+      "inherit; /* This used to be the variable $typographyUX_default_textAlign TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_default_margin;",
     with:
-      "0; /* This used to be the not anymore exposed variable $typographyUX_default_margin TODO: Use Typography component instead of styling via CSS */",
+      "0; /* This used to be the variable $typographyUX_default_margin TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_default_padding;",
     with:
-      "0; /* This used to be the not anymore exposed variable $typographyUX_default_padding TODO: Use Typography component instead of styling via CSS */",
+      "0; /* This used to be the variable $typographyUX_default_padding TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_display1_component;",
     with:
-      "'h1'; /* This used to be the not anymore exposed variable $typographyUX_display1_component TODO: Use Typography component instead of styling via CSS */",
+      "'h1'; /* This used to be the variable $typographyUX_display1_component TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_display1_fontSize;",
     with:
-      "34px; /* This used to be the not anymore exposed variable $typographyUX_display1_fontSize TODO: Use Typography component instead of styling via CSS */",
+      "34px; /* This used to be the variable $typographyUX_display1_fontSize TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_display1_fontFamily;",
     with:
-      '"Ubuntu","Roboto", "Helvetica", "Arial", sans-serif; /* This used to be the not anymore exposed variable $typographyUX_display1_fontFamily TODO: Use Typography component instead of styling via CSS */',
+      '"Ubuntu","Roboto", "Helvetica", "Arial", sans-serif; /* This used to be the variable $typographyUX_display1_fontFamily TODO: Use the Typography component instead of styling via CSS */',
   },
   {
     replace: "$typographyUX_display2_component;",
     with:
-      "'h2'; /* This used to be the not anymore exposed variable $typographyUX_display2_component TODO: Use Typography component instead of styling via CSS */",
+      "'h2'; /* This used to be the variable $typographyUX_display2_component TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_display2_fontSize;",
     with:
-      "28px; /* This used to be the not anymore exposed variable $typographyUX_display2_fontSize TODO: Use Typography component instead of styling via CSS */",
+      "28px; /* This used to be the variable $typographyUX_display2_fontSize TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_display2_fontFamily;",
     with:
-      '"Ubuntu","Roboto", "Helvetica", "Arial", sans-serif; /* This used to be the not anymore exposed variable $typographyUX_display2_fontFamily TODO: Use Typography component instead of styling via CSS */',
+      '"Ubuntu","Roboto", "Helvetica", "Arial", sans-serif; /* This used to be the variable $typographyUX_display2_fontFamily TODO: Use the Typography component instead of styling via CSS */',
   },
   {
     replace: "$typographyUX_display3_component;",
     with:
-      "'h3'; /* This used to be the not anymore exposed variable $typographyUX_display3_component TODO: Use Typography component instead of styling via CSS */",
+      "'h3'; /* This used to be the variable $typographyUX_display3_component TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_display3_fontSize;",
     with:
-      "24px; /* This used to be the not anymore exposed variable $typographyUX_display3_fontSize TODO: Use Typography component instead of styling via CSS */",
+      "24px; /* This used to be the variable $typographyUX_display3_fontSize TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_display3_fontWeight;",
     with:
-      "500; /* This used to be the not anymore exposed variable $typographyUX_display3_fontWeight TODO: Use Typography component instead of styling via CSS */",
+      "500; /* This used to be the variable $typographyUX_display3_fontWeight TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_display3_fontFamily;",
     with:
-      '"Ubuntu","Roboto", "Helvetica", "Arial", sans-serif; /* This used to be the not anymore exposed variable $typographyUX_display3_fontFamily TODO: Use Typography component instead of styling via CSS */',
+      '"Ubuntu","Roboto", "Helvetica", "Arial", sans-serif; /* This used to be the variable $typographyUX_display3_fontFamily TODO: Use the Typography component instead of styling via CSS */',
   },
   {
     replace: "$typographyUX_display4_component;",
     with:
-      "'h4'; /* This used to be the not anymore exposed variable $typographyUX_display4_component TODO: Use Typography component instead of styling via CSS */",
+      "'h4'; /* This used to be the variable $typographyUX_display4_component TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_display4_fontSize;",
     with:
-      "20px; /* This used to be the not anymore exposed variable $typographyUX_display4_fontSize TODO: Use Typography component instead of styling via CSS */",
+      "20px; /* This used to be the variable $typographyUX_display4_fontSize TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_display4_fontWeight;",
     with:
-      "500; /* This used to be the not anymore exposed variable $typographyUX_display4_fontWeight TODO: Use Typography component instead of styling via CSS */",
+      "500; /* This used to be the variable $typographyUX_display4_fontWeight TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_display5_component;",
     with:
-      "'h4'; /* This used to be the not anymore exposed variable $typographyUX_display5_component TODO: Use Typography component instead of styling via CSS */",
+      "'h4'; /* This used to be the variable $typographyUX_display5_component TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_display5_fontSize;",
     with:
-      "16px; /* This used to be the not anymore exposed variable $typographyUX_display5_fontSize TODO: Use Typography component instead of styling via CSS */",
+      "16px; /* This used to be the variable $typographyUX_display5_fontSize TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_display5_fontWeight;",
     with:
-      "500; /* This used to be the not anymore exposed variable $typographyUX_display5_fontWeight TODO: Use Typography component instead of styling via CSS */",
+      "500; /* This used to be the variable $typographyUX_display5_fontWeight TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_body1_fontSize;",
     with:
-      "15px; /* This used to be the not anymore exposed variable $typographyUX_body1_fontSize TODO: Use Typography component instead of styling via CSS */",
+      "15px; /* This used to be the variable $typographyUX_body1_fontSize TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_body1_fontWeight;",
     with:
-      "500; /* This used to be the not anymore exposed variable $typographyUX_body1_fontWeight TODO: Use Typography component instead of styling via CSS */",
+      "500; /* This used to be the variable $typographyUX_body1_fontWeight TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_body2_fontSize;",
     with:
-      "14px; /* This used to be the not anymore exposed variable $typographyUX_body2_fontSize TODO: Use Typography component instead of styling via CSS */",
+      "14px; /* This used to be the variable $typographyUX_body2_fontSize TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_body2_fontWeight;",
     with:
-      "500; /* This used to be the not anymore exposed variable $typographyUX_body2_fontWeight TODO: Use Typography component instead of styling via CSS */",
+      "500; /* This used to be the variable $typographyUX_body2_fontWeight TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_body3_fontSize;",
     with:
-      "15px; /* This used to be the not anymore exposed variable $typographyUX_body3_fontSize TODO: Use Typography component instead of styling via CSS */",
+      "15px; /* This used to be the variable $typographyUX_body3_fontSize TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_body4_fontSize;",
     with:
-      "14px; /* This used to be the not anymore exposed variable $typographyUX_body4_fontSize TODO: Use Typography component instead of styling via CSS */",
+      "14px; /* This used to be the variable $typographyUX_body4_fontSize TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_body5_fontSize;",
     with:
-      "13px; /* This used to be the not anymore exposed variable $typographyUX_body5_fontSize TODO: Use Typography component instead of styling via CSS */",
+      "13px; /* This used to be the variable $typographyUX_body5_fontSize TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_body5_color;",
     with:
-      "#757575; /* This used to be the not anymore exposed variable $typographyUX_body5_color TODO: Use Typography component instead of styling via CSS */",
+      "#757575; /* This used to be the variable $typographyUX_body5_color TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_body6_fontSize;",
     with:
-      "12px; /* This used to be the not anymore exposed variable $typographyUX_body6_fontSize TODO: Use Typography component instead of styling via CSS */",
+      "12px; /* This used to be the variable $typographyUX_body6_fontSize TODO: Use the Typography component instead of styling via CSS */",
   },
   {
     replace: "$typographyUX_body6_color;",
     with:
-      "#757575; /* This used to be the not anymore exposed variable $typographyUX_body6_color TODO: Use Typography component instead of styling via CSS */",
+      "#757575; /* This used to be the variable $typographyUX_body6_color TODO: Use the Typography component instead of styling via CSS */",
   },
 ];
 
