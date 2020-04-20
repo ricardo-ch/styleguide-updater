@@ -1,5 +1,6 @@
-const escapeStringRegexp = require("escape-string-regexp");
+#!/usr/bin/env node
 const path = require("path");
+const escapeStringRegexp = require("escape-string-regexp");
 const replace = require("replace-in-file");
 const replaceList = require("./replaceList");
 
