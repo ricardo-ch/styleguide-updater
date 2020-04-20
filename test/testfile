@@ -14,4 +14,5 @@ jssGlobals.statusBuyerOutbid
   height: 1px;
   background: $grey300;
   margin: 0 10px;
+  font-size: $typographyUX_display1_fontSize;
 }

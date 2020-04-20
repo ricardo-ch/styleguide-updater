@@ -45,7 +45,7 @@ const asyncReplace = async () => {
       files: `${directory}/**`,
       from,
       to,
-      dry: true,
+      dry: false,
       countMatches: true,
     };
 
