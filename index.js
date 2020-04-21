@@ -10,6 +10,9 @@ if (!process.argv[2]) {
 }
 
 const convertToScssVariable = (jssVariable) => {
+  if (jssVariable[0] === "$") {
+    return jssVariable;
+  }
   return `$${jssVariable.replace("jssGlobals.", "").replace(/\./g, "_")}`;
 };
 
@@ -17,11 +20,11 @@ const asyncReplace = async () => {
   let from = [];
   let to = [];
 
-  // convert to "replace-in-file" compliant format for CSSinJS
-  replaceList.forEach((replacement) => {
-    from.push(new RegExp(escapeStringRegexp(replacement.replace), "g"));
-    to.push(replacement.with);
-  });
+  // convert to "replace-in-file" compliant format for CSSinJS (only needed for Styleguide replacements)
+  // replaceList.forEach((replacement) => {
+  //   from.push(new RegExp(escapeStringRegexp(replacement.replace), "g"));
+  //   to.push(replacement.with);
+  // });
 
   // convert to "replace-in-file" compliant format for SCSS
   replaceList.forEach((replacement) => {
@@ -29,14 +32,10 @@ const asyncReplace = async () => {
     from.push(new RegExp(escapeStringRegexp(scssVariable), "g"));
 
     let scssValue;
-    if (
-      replacement.with[0] === "`" ||
-      replacement.with[0] === "'" ||
-      replacement.with[0] === '"'
-    ) {
-      scssValue = replacement.with;
-    } else {
+    if (replacement.with.startsWith("jssGlobals")) {
       scssValue = convertToScssVariable(replacement.with);
+    } else {
+      scssValue = replacement.with;
     }
     to.push(scssValue);
   });
