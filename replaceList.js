@@ -353,6 +353,131 @@ const replaceList = [
   { replace: "jssGlobals.fonts.body1.fontSize", with: "14px" },
   { replace: "jssGlobals.fonts.caption.fontSize", with: "12px" },
   { replace: "jssGlobals.fonts.button.fontSize", with: "14px" },
+  { replace: "jssGlobals.ads.side.width", with: "300px" },
+  { replace: "jssGlobals.header.logoHeight.default", with: "40px" },
+  { replace: "jssGlobals.header.logoHeight.xs", with: "30px" },
+  { replace: "jssGlobals.borderRadius.sm", with: "jssGlobals.borderRadius" },
+  { replace: "$shadows_0", with: "none" },
+  {
+    replace: "$shadows_1;",
+    with:
+      '0px 1px 3px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 2px 1px -1px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="1" */',
+  },
+  {
+    replace: "$shadows_2;",
+    with:
+      '0px 1px 5px 0px rgba(0, 0, 0, 0.2),0px 2px 2px 0px rgba(0, 0, 0, 0.14),0px 3px 1px -2px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="2" */',
+  },
+  {
+    replace: "$shadows_3;",
+    with:
+      '0px 1px 8px 0px rgba(0, 0, 0, 0.2),0px 3px 4px 0px rgba(0, 0, 0, 0.14),0px 3px 3px -2px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="3" */',
+  },
+  {
+    replace: "$shadows_4;",
+    with:
+      '0px 2px 4px -1px rgba(0, 0, 0, 0.2),0px 4px 5px 0px rgba(0, 0, 0, 0.14),0px 1px 10px 0px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="4" */',
+  },
+  {
+    replace: "$shadows_5;",
+    with:
+      '0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 5px 8px 0px rgba(0, 0, 0, 0.14),0px 1px 14px 0px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="5" */',
+  },
+  {
+    replace: "$shadows_6;",
+    with:
+      '0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 6px 10px 0px rgba(0, 0, 0, 0.14),0px 1px 18px 0px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="6" */',
+  },
+  {
+    replace: "$shadows_7;",
+    with:
+      '0px 4px 5px -2px rgba(0, 0, 0, 0.2),0px 7px 10px 1px rgba(0, 0, 0, 0.14),0px 2px 16px 1px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="7" */',
+  },
+  {
+    replace: "$shadows_8;",
+    with:
+      '0px 5px 5px -3px rgba(0, 0, 0, 0.2),0px 8px 10px 1px rgba(0, 0, 0, 0.14),0px 3px 14px 2px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="8" */',
+  },
+  {
+    replace: "$shadows_9;",
+    with:
+      '0px 5px 6px -3px rgba(0, 0, 0, 0.2),0px 9px 12px 1px rgba(0, 0, 0, 0.14),0px 3px 16px 2px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="9" */',
+  },
+  {
+    replace: "$shadows_10;",
+    with:
+      '0px 6px 6px -3px rgba(0, 0, 0, 0.2),0px 10px 14px 1px rgba(0, 0, 0, 0.14),0px 4px 18px 3px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="10" */',
+  },
+  {
+    replace: "$shadows_11;",
+    with:
+      '0px 6px 7px -4px rgba(0, 0, 0, 0.2),0px 11px 15px 1px rgba(0, 0, 0, 0.14),0px 4px 20px 3px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="11" */',
+  },
+  {
+    replace: "$shadows_12;",
+    with:
+      '0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 12px 17px 2px rgba(0, 0, 0, 0.14),0px 5px 22px 4px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="12" */',
+  },
+  {
+    replace: "$shadows_13;",
+    with:
+      '0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 13px 19px 2px rgba(0, 0, 0, 0.14),0px 5px 24px 4px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="13" */',
+  },
+  {
+    replace: "$shadows_14;",
+    with:
+      '0px 7px 9px -4px rgba(0, 0, 0, 0.2),0px 14px 21px 2px rgba(0, 0, 0, 0.14),0px 5px 26px 4px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="14" */',
+  },
+  {
+    replace: "$shadows_15;",
+    with:
+      '0px 8px 9px -5px rgba(0, 0, 0, 0.2),0px 15px 22px 2px rgba(0, 0, 0, 0.14),0px 6px 28px 5px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="15" */',
+  },
+  {
+    replace: "$shadows_16;",
+    with:
+      '0px 8px 10px -5px rgba(0, 0, 0, 0.2),0px 16px 24px 2px rgba(0, 0, 0, 0.14),0px 6px 30px 5px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="16" */',
+  },
+  {
+    replace: "$shadows_17;",
+    with:
+      '0px 8px 11px -5px rgba(0, 0, 0, 0.2),0px 17px 26px 2px rgba(0, 0, 0, 0.14),0px 6px 32px 5px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="17" */',
+  },
+  {
+    replace: "$shadows_18;",
+    with:
+      '0px 9px 11px -5px rgba(0, 0, 0, 0.2),0px 18px 28px 2px rgba(0, 0, 0, 0.14),0px 7px 34px 6px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="18" */',
+  },
+  {
+    replace: "$shadows_19;",
+    with:
+      '0px 9px 12px -6px rgba(0, 0, 0, 0.2),0px 19px 29px 2px rgba(0, 0, 0, 0.14),0px 7px 36px 6px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="19" */',
+  },
+  {
+    replace: "$shadows_20;",
+    with:
+      '0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 20px 31px 3px rgba(0, 0, 0, 0.14),0px 8px 38px 7px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="20" */',
+  },
+  {
+    replace: "$shadows_21;",
+    with:
+      '0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 21px 33px 3px rgba(0, 0, 0, 0.14),0px 8px 40px 7px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="21" */',
+  },
+  {
+    replace: "$shadows_22;",
+    with:
+      '0px 10px 14px -6px rgba(0, 0, 0, 0.2),0px 22px 35px 3px rgba(0, 0, 0, 0.14),0px 8px 42px 7px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="22" */',
+  },
+  {
+    replace: "$shadows_23;",
+    with:
+      '0px 11px 14px -7px rgba(0, 0, 0, 0.2),0px 23px 36px 3px rgba(0, 0, 0, 0.14),0px 9px 44px 8px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="23" */',
+  },
+  {
+    replace: "$shadows_24;",
+    with:
+      '0px 11px 15px -7px rgba(0, 0, 0, 0.2),0px 24px 38px 3px rgba(0, 0, 0, 0.14),0px 9px 46px 8px rgba(0, 0, 0, 0.12); /* TODO: rather use Card or Paper component with elevation="24" */',
+  },
   {
     replace: "$typographyUX_default_component;",
     with:

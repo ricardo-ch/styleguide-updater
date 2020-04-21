@@ -9,8 +9,9 @@ if (!process.argv[2]) {
   process.exit();
 }
 
-const convertToScssVariable = (JssVariable) =>
-  `$${JssVariable.replace("jssGlobals.", "").replace(/\./g, "_")}`;
+const convertToScssVariable = (jssVariable) => {
+  return `$${jssVariable.replace("jssGlobals.", "").replace(/\./g, "_")}`;
+};
 
 const asyncReplace = async () => {
   let from = [];
