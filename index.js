@@ -9,35 +9,14 @@ if (!process.argv[2]) {
   process.exit();
 }
 
-const convertToScssVariable = (jssVariable) => {
-  if (jssVariable[0] === "$") {
-    return jssVariable;
-  }
-  return `$${jssVariable.replace("jssGlobals.", "").replace(/\./g, "_")}`;
-};
-
 const asyncReplace = async () => {
   let from = [];
   let to = [];
 
-  // convert to "replace-in-file" compliant format for CSSinJS (only needed for Styleguide replacements)
-  // replaceList.forEach((replacement) => {
-  //   from.push(new RegExp(escapeStringRegexp(replacement.replace), "g"));
-  //   to.push(replacement.with);
-  // });
-
-  // convert to "replace-in-file" compliant format for SCSS
+  // convert to "replace-in-file" compliant format
   replaceList.forEach((replacement) => {
-    const scssVariable = convertToScssVariable(replacement.replace);
-    from.push(new RegExp(escapeStringRegexp(scssVariable), "g"));
-
-    let scssValue;
-    if (replacement.with.startsWith("jssGlobals")) {
-      scssValue = convertToScssVariable(replacement.with);
-    } else {
-      scssValue = replacement.with;
-    }
-    to.push(scssValue);
+    from.push(new RegExp(escapeStringRegexp(replacement.replace), "g"));
+    to.push(replacement.with);
   });
 
   const directory = path.resolve(process.cwd(), process.argv[2]);

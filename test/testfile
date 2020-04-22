@@ -1,12 +1,6 @@
-jssGlobals.lines.default
-jssGlobals.lines.default
-jssGlobals.lines.default
-jssGlobals.transitioneaseSharp
-jssGlobals.statusBuyerOutbid
 
-  @media (min-width: $breakpoints_media_smMin) {
-    width: 320px;
-  }
+@media (min-width: $breakpoints_media_smMin) {
+  width: 320px;
 }
 
 .stepLine {
@@ -18,4 +12,5 @@ jssGlobals.statusBuyerOutbid
   box-shadow: $shadows_0;
   box-shadow: $shadows_10;
   box-shadow: $shadows_1;
+  color: $blue;
 }
