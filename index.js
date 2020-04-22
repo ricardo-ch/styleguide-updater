@@ -15,7 +15,9 @@ const asyncReplace = async () => {
 
   // convert to "replace-in-file" compliant format
   replaceList.forEach((replacement) => {
-    from.push(new RegExp(escapeStringRegexp(replacement.replace), "g"));
+    // check if it is not followed by any of letter/number/_ to make sure something like $orangeBorder does not get replaced, because we only want to replace
+    const regexp = `${escapeStringRegexp(replacement.replace)}(?![a-zA-Z0-9_])`;
+    from.push(new RegExp(regexp, "g"));
     to.push(replacement.with);
   });
 

@@ -13,4 +13,9 @@
   box-shadow: $shadows_10;
   box-shadow: $shadows_1;
   color: $blue;
+  color: $orange; // this should be updated
+  color: $orangeBorder; // this should not be updated
+  color: $orange_1; // this should not be updated
+  color: $orange1; // this should not be updated
+  padding: $spacings_container_xs;
 }
