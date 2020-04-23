@@ -141,78 +141,27 @@ const replaceList = [
   { replace: "$errorA400", with: "#ff1744" },
   { replace: "$errorA700", with: "#d50000" },
   { replace: "$error50", with: "#ffebee" },
-  {
-    replace: "$primaryLightA100",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLightA200",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLightA400",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLightA700",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLight50",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLight100",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLight200",
-    with: "$colors_primaryLight",
-  },
+
   {
     replace: "$primaryLight300",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLight400",
     with: "$colors_primaryLight",
   },
   {
     replace: "$primaryLight500",
     with: "$colors_primaryLight",
   },
-  {
-    replace: "$primaryLight600",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLight700",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLight800",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLight900",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLightA100",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLightA200",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLightA400",
-    with: "$colors_primaryLight",
-  },
-  {
-    replace: "$primaryLightA700",
-    with: "$colors_primaryLight",
-  },
+  { replace: "$primaryLight50", with: "#e6f4fb" },
+  { replace: "$primaryLight100", with: "#b3e0f3" },
+  { replace: "$primaryLight200", with: "#80cbec" },
+  { replace: "$primaryLight400", with: "#26a6de" },
+  { replace: "$primaryLight600", with: "#008ed4" },
+  { replace: "$primaryLight700", with: "#0083ce" },
+  { replace: "$primaryLight800", with: "#0079c8" },
+  { replace: "$primaryLight900", with: "#0068bf" },
+  { replace: "$primaryLightA100", with: "#e7f3ff" },
+  { replace: "$primaryLightA200", with: "#b4d8ff" },
+  { replace: "$primaryLightA400", with: "#81beff" },
+  { replace: "$primaryLightA700", with: "#68b1ff" },
   {
     replace: "$secondary100",
     with: "$colors_secondaryLight",
