@@ -87,83 +87,6 @@ const replaceList = [
     replace: "$statusSellerSold",
     with: "$colors_statusSellerSold",
   },
-  {
-    replace: "$primaryLight100",
-    with: "$colors_primaryLight100",
-  },
-  {
-    replace: "$primaryLight200",
-    with: "$colors_primaryLight200",
-  },
-  {
-    replace: "$primaryLight300",
-    with: "$colors_primaryLight300",
-  },
-  {
-    replace: "$primaryLight400",
-    with: "$colors_primaryLight400",
-  },
-  {
-    replace: "$primaryLight500",
-    with: "$colors_primaryLight500",
-  },
-  {
-    replace: "$primaryLight600",
-    with: "$colors_primaryLight600",
-  },
-  {
-    replace: "$primaryLight700",
-    with: "$colors_primaryLight700",
-  },
-  {
-    replace: "$primaryLight800",
-    with: "$colors_primaryLight800",
-  },
-  {
-    replace: "$primaryLight900",
-    with: "$colors_primaryLight900",
-  },
-  {
-    replace: "$primaryLight50",
-    with: "$colors_primaryLight50",
-  },
-  {
-    replace: "$secondary100",
-    with: "$colors_secondary100",
-  },
-  {
-    replace: "$secondary200",
-    with: "$colors_secondary200",
-  },
-  {
-    replace: "$secondary300",
-    with: "$colors_secondary300",
-  },
-  {
-    replace: "$secondary400",
-    with: "$colors_secondary400",
-  },
-  {
-    replace: "$secondary500",
-    with: "$colors_secondary500",
-  },
-  {
-    replace: "$secondary600",
-    with: "$colors_secondary600",
-  },
-  {
-    replace: "$secondary700",
-    with: "$colors_secondary700",
-  },
-  {
-    replace: "$secondary800",
-    with: "$colors_secondary800",
-  },
-  {
-    replace: "$secondary900",
-    with: "$colors_secondary900",
-  },
-  { replace: "$secondary50", with: "$colors_secondary50" },
   { replace: "$grey100", with: "$colors_grey100" },
   { replace: "$grey200", with: "$colors_grey200" },
   { replace: "$grey300", with: "$colors_grey300" },
@@ -291,10 +214,6 @@ const replaceList = [
     with: "$colors_primaryLight",
   },
   {
-    replace: "$secondary50",
-    with: "$colors_secondaryLight",
-  },
-  {
     replace: "$secondary100",
     with: "$colors_secondaryLight",
   },
@@ -311,6 +230,10 @@ const replaceList = [
   {
     replace: "$secondary900",
     with: "$colors_secondaryDark",
+  },
+  {
+    replace: "$secondary50",
+    with: "$colors_secondaryLight",
   },
   { replace: "$secondaryA100", with: "$colors_secondary" },
   { replace: "$secondaryA200", with: "$colors_secondary" },
