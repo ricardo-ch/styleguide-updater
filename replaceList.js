@@ -19,7 +19,7 @@ const replaceList = [
   { replace: "$primaryColor", with: "$colors_primary" },
   {
     replace: "$primaryColorDark",
-    with: "$colors_primaryDark",
+    with: "$colors_primary",
   },
   {
     replace: "$primaryColorLight",
@@ -28,7 +28,7 @@ const replaceList = [
   { replace: "$secondaryColor", with: "$colors_secondary" },
   {
     replace: "$secondaryColorDark",
-    with: "$colors_secondaryDark",
+    with: "$colors_secondary",
   },
   {
     replace: "$secondaryColorLight",
@@ -178,7 +178,7 @@ const replaceList = [
   { replace: "$secondary800", with: "$colors_secondary" },
   {
     replace: "$secondary900",
-    with: "$colors_secondaryDark",
+    with: "$colors_secondary",
   },
   {
     replace: "$secondary50",
