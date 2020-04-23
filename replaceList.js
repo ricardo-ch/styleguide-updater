@@ -15,7 +15,7 @@ const replaceList = [
   { replace: "$purple", with: "$colors_purple" },
   { replace: "$paper", with: "$colors_paper" },
   { replace: "$white", with: "$colors_white" },
-  { replace: "$transparent", with: "$colors_transparent" },
+  { replace: "$transparent", with: "transparent" },
   { replace: "$primaryColor", with: "$colors_primary" },
   {
     replace: "$primaryColorDark",
